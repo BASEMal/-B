@@ -1,0 +1,223 @@
+
+<!doctype html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع الهكرز</title>
+    <style>
+        body {
+            background-image: url(bg/y.jpg);
+            background-repeat: repeat-x;
+            font-family: "Times New Roman", Times, serif;
+            margin: 0;
+        }
+
+        .header {
+            width: 100%;
+            height: 150px;
+            background: blue;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .header .logo {
+            width: 80px;
+            height: 80px;
+            margin-right: 20px;
+        }
+
+        .header .headerNamee {
+            font-size: 29px;
+            color: blue;
+            text-shadow: #000 0px 2px;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .box {
+            width: 30%;
+            margin: 10px 0;
+        }
+
+        .box .logo1 {
+            width: 80px;
+            height: 80px;
+            margin: 5px;
+        }
+
+        .box .details {
+            padding: 3px;
+            font-family: Tahoma, Geneva, sans-serif;
+            font-size: 12px;
+            text-align: right;
+        }
+
+        .details a {
+            color: #09f;
+            text-decoration: none;
+        }
+
+        .details a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        .marquee {
+            background-color: #fff;
+            opacity: 0.5;
+            color: blue;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 4px;
+            height: 30px;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer {
+            width: 100%;
+            height: 60px;
+            margin-top: 30px;
+            background-color: gold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer .far {
+            border: #933 1px solid;
+            border-radius: 6px;
+            background-color: blue;
+            padding: 5px;
+            color: white;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .menu div {
+            position: relative;
+            margin: 0 10px;
+        }
+
+        .menu div nav {
+            cursor: pointer;
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .menu div ul {
+            display: none;
+            position: absolute;
+            background-color: white;
+            color: black;
+            border: 1px solid #933;
+            border-radius: 5px;
+            margin-top: 5px;
+            padding: 5px;
+            list-style: none;
+        }
+
+        .menu div:hover ul {
+            display: block;
+        }
+
+        .menu div ul li {
+            padding: 5px;
+        }
+
+        .menu div ul li:hover {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="IMG_٢٠٢٤٠٢٠٨_٠١٥٣٠٣.jpg" alt="شعار">
+        <div class="headerNamee">انواع الهكرز</div>
+    </div>
+
+    <div class="content">
+        <div class="box">
+            <img class="logo1" src="تنزيل.png" alt="شعار">
+            <div class="details">
+                هاكرز القبعة البيضاء:
+                هاكرز القبعة البيضاء (White Hat Hackers):
+                هؤلاء هم الهاكرز الأخلاقيون الذين يستخدمون مهاراتهم لاختبار أمان الأنظمة والشبكات بهدف حمايتها من الهجمات الضارة.
+                <a href="الصفحة الثانية.html">قراءة المزيد</a>
+            </div>
+        </div>
+        <div class="box">
+            <img class="logo1" src="images.jpeg" alt="شعار">
+            <div class="details">
+                هاكرز القبعة السوداء:
+                هاكرز القبعة السوداء (Black Hat Hackers):
+                هؤلاء هم الهاكرز الذين يقومون بالاختراق لأغراض ضارة، مثل سرقة البيانات، نشر الفيروسات.
+                <a href="الصفحة الثانية.html">قراءة المزيد</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img class="logo1" src="images (2).jpeg" alt="شعار">
+            <div class="details">
+                هاكرز القبعة الرمادية (Gray Hat Hackers):
+                هؤلاء يقعون في منطقة وسط بين القبعة البيضاء والسوداء. قد يقومون بالاختراق بدون إذن، ولكن ليس بالضرورة لأغراض ضارة.
+                <a href="الصفحة الثانية.html">قراءة المزيد</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div>
+            <nav>الرئيسية</nav>
+            <ul>
+                <li><a href="#">الهكرز اصحاب القبعة البيضاء</a></li>
+                <li><a href="#">الهكرز أصحاب القبعة السوداء</a></li>
+                <li><a href="#">الهكرز أصحاب القبعة الرمادية</a></li>
+            </ul>
+        </div>
+        <div>
+            <nav>مشــاريعي</nav>
+            <ul>
+                <li><a href="#">الجدول</a></li>
+                <li><a href="#">المواقــع</a></li>
+                <li><a href="#">الشـركه</a></li>
+                <li><a href="#">المؤسسة</a></li>
+            </ul>
+        </div>
+        <div>
+            <nav>الاخــبار</nav>
+            <ul>
+                <li><a href="#">محور المقاومة</a></li>
+                <li><a href="#">فلسطين</a></li>
+                <li><a href="#">اليمن</a></li>
+                <li><a href="#">لبنان</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="marquee">  
+        <marquee width="150%" behavior="scroll" direction="right"> باسم الذيابي لتصميم المواقع 775956495 </marquee>
+    </div>
+
+    <div class="footer">
+        <div class="far">
+            <p>جميع الحقوق محفوظه لباسم</p>
+        </div>
+    </div>
+</body>
+</html>
